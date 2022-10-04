@@ -1,0 +1,77 @@
+.site {
+    background-color: black;
+    margin: 0;
+    text-align: center;
+}
+
+.menu {
+    background-color: black;
+    padding: 20px;
+}
+
+.jogos {
+    background-color: black;
+    padding: 5px;
+}
+
+h2 {
+    animation: rgb-c 2s infinite;
+}
+
+a {
+    animation: rgb-c 2s infinite;
+}
+
+@keyframes rgb-bg {
+
+    0% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    20% {
+        background-color: rgb(246, 255, 0);
+    }
+
+    40% {
+        background-color: rgb(72, 255, 0);
+    }
+
+    60% {
+        background-color: rgb(0, 251, 255);
+    }
+
+    80% {
+        background-color: rgb(8, 0, 255);
+    }
+
+    100% {
+        background-color: rgb(255, 0, 221);
+    }
+}
+
+@keyframes rgb-c {
+
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    20% {
+        color: rgb(246, 255, 0);
+    }
+
+    40% {
+        color: rgb(72, 255, 0);
+    }
+
+    60% {
+        color: rgb(0, 251, 255);
+    }
+
+    80% {
+        color: rgb(8, 0, 255);
+    }
+
+    100% {
+        color: rgb(255, 0, 221);
+    }
+}
